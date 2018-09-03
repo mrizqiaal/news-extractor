@@ -1,0 +1,43 @@
+[['jakarta', 'kompas'], ['com', 'koalisi', 'pendukung', 'pemerintah', 'sepakat', 'untuk', 'mempercepat', 'revisi', 'uu', 'antiterorisme', 'yang', 'tengah', 'dibahas', 'di', 'dpr'], ['mereka', 'sepakat', 'agar', 'pemerintah', 'tidak', 'menerbitkan', 'peraturan', 'pemerintah', 'pengganti', 'undang', 'undang', 'perppu']]
+
+['pemerintah', 'terorisme', 'wiranto', 'aturan', 'antiterorisme', 'sepakat', 'perppu', 'dpr', 'pertemuan', 'baca', 'pendukung', 'revisi', 'jakarta']
+
+- 1/2, jakarta
+- 6/15 0,4, pendukung pemerintah sepakat revisi antiterorisme dpr
+- 4/12 0.33, sepakat pemerintah pemerintah perppu
+
+-----
+[['surabaya', 'polisi', 'menunjukkan', 'sekeluarga', 'pengebom', 'gereja', 'di', 'surabaya'], ['foto', 'itu', 'didapatkan', 'polisi', 'dari', 'penggeledahan', 'yang', 'dilakukan', 'di', 'rumah', 'terduga', 'pengebom', 'gereja'], ['foto', 'itu', 'ditunjukkan', 'kapolrestabes', 'surabaya', 'kombes', 'rudi', 'setiawan', 'saat', 'konferensi', 'pers', 'di', 'depan', 'rumah', 'pengebom', 'tersebut']]
+
+ ['tim', 'bom', 'pengebom', 'diledakkan', 'foto', 'rumah', 'polisi', 'high', 'penggeledahan', 'surabaya', 'rudi', 'explosive', 'gereja']
+
+- 5/8, surabaya polisi pengebom gereja surabaya
+- 6/13 0,46, foto polisi penggeledahan rumah pengebom gereja
+- 5/16 0,3125, foto surabaya rudi rumah pengebom
+
+------
+[['surabaya', 'kompas'], ['com', 'polisi', 'telah', 'menggeledah', 'sebuah', 'rumah', 'di', 'kawasan', 'wonorejo', 'asri', 'rungkut', 'surabaya', 'jawa', 'timur', 'minggu', '13', '5', '2018', 'malam'], ['penggeledahan', 'tersebut', 'membuat', 'warga', 'sekitar', 'kompleks', 'perumahan', 'kaget']]
+
+ ['bom', 'polisi', 'keluarga', 'penggeledahan', 'minggu', 'tinggal', 'rumah', 'kaget', 'istrinya', 'malam', 'sosok', 'baca', 'warga', 'terduga', 'peledakan', 'armuji', 'ngobrol', 'usaha', 'surabaya', 'waspada', 'salah', 'dita', 'orang', 'penuturan']
+
+- 1/2 surabaya
+- 4/19 0,21 polisi rumah surabaya malam
+- 3/8 0,375 penggeledahan warga kaget
+
+------
+[['berlin', 'kelompok', 'spion', 'cyber', 'rusia', 'apt28', 'dilaporkan', 'berhasil', 'meretas', 'jaringan', 'komunikasi', 'kementerian', 'pertahanan', 'dan', 'kementerian', 'luar', 'negeri', 'jerman'], ['pemerintah', 'jerman', 'menyatakan', 'situasi', 'sudah', 'berhasil', 'diatasi'], ['media', 'di', 'jerman', 'melaporkan', 'peretasan', 'jaringan', 'komunikasi', 'pemerintah', 'jerman', 'oleh', 'pelaku', 'yang', 'diduga', 'kelompok', 'agan', 'cyber', 'rusia', 'apt28', 'sudah', 'tercium', 'bulan', 'desember', 'lalu']] 
+
+['parlemen', 'serangan', 'cyber', 'peretasan', 'pemerintah', 'berhasil', 'diatasi', 'meretas', 'fur', 'negeri', 'informasi', 'jerman', 'komunikasi', 'rusia', 'pengamanan', 'situasi', 'pemerintahan', 'jaringan', 'badan', 'dinas', 'bundestag', 'kementerian', 'kelompok', 'peretas', 'dpa', 'teknologi', 'bsi']
+
+- 11/18 0,61, kelompok cyber rusia berhasil meretas jaringan komunikasi kementrian kementrian negeri jerman
+- 5/7, pemerintah jerman situasi berhasil diatasi
+- 9/23 0,39, jerman peretasan jaringan komunikasi pemerintah jerman kelompok cyber rusia
+
+------
+[['lombok', 'kompas'], ['com', 'perusahaan', 'telekomunikasi', 'telkomsel', 'mengaku', 'mengalami', 'penurunan', 'pendapatan', 'imbas', 'registrasi', 'kartu', 'sim', 'prabayar'], ['meski', 'demikian', 'telkomsel', 'mengklaim', 'penurunan', 'pendapatan', 'ini', 'bukan', 'berarti', 'perusahaan', 'mengalami', 'kerugian']] 
+
+['pelanggan', 'prabayar', 'registrasi', 'ulang', 'nomor', 'rugi', 'ririek', 'berhasil', 'mengaku', 'sim', 'lombok', 'pendapatan', 'mendorong', 'terblokir', 'promo', 'imbas', 'aktivitas', 'penurunan', 'telkomsel', 'kartu', 'kemenkominfo', 'juta']
+
+- 1/2 lombok
+- 8/13 0,615 telkomsel penurunan pendapatan imbas registrasi kartu sim prabayar
+- 3/12 0,25 telkomsel penurunan pendapatan 

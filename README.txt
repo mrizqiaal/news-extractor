@@ -1,0 +1,33 @@
+Python 3.6 (Spyder)
+Library: Sastrawi, gensim, sklearn
+Menggunakan list stopword dari Kaggle
+Input: Min 1000 karakter
+How to run: jalankan program -> masukkan inputan berita -> topic, tag, title akan muncul setelah proses selesai
+1. Topic Extractor
+		- Hanya 4 topik, yaitu: Teknologi, Olahraga, Ekonomi, dan News
+		- Term utk setiap topik -> top 10 berita terpopuler (per topik) pd Kompas.com
+		- Menggunakan algoritma LDA dan NMF utk menentukan term, penentuan kelas berdasarkan distribusi data
+		- Improvement: menambah jumlah topik shg lebih spesifik, menambah corpus utk setiap topik
+2. Tag Generator
+		- Menggunakan LDA dan NMF yg ditambahkan dgn beberapa rule
+		- Kesulitan: rule tidak dapat mencover semua kondisi
+3. Title Generator
+		- Judul yang dihasilkan masih sangat rancu
+		- Minimnya literatur tentang kasus ini
+		- Hanya menerapkan string matching biasa berdasarkan pattern yang dibuat
+	Kenapa LDA dan NMF? Karena menurut literatur yg saya baca, algoritma ini paling sering digunakan dengan akurasi tinggi
+	Kesulitan:	- belum bisa menentukan nilai passes, num_topics, iterations, dll yg baik, masih menggunakan angka statik
+				- hasil sgt berpengaruh tergantung nilai yg diset
+	Improvement: mempelajari perplexity untuk menentukan nilai otomatis (passes, num_topics, dll)
+	Validasi: belum dilakukan, akurasi akan sangat kecil (kalaupun dilakukan)
+
+Contoh hasil:
+Input: LOMBOK, KOMPAS.com - Perusahaan telekomunikasi Telkomsel mengaku mengalami penurunan pendapatan imbas registrasi kartu SIM prabayar. Meski demikian, Telkomsel mengklaim penurunan pendapatan ini bukan berarti perusahaan mengalami kerugian. "(Pendapatan) Memang melambat. Tidak bisa dibilang rugi. Tidak rugi tapi pendapatan menurun," ujar Direktur Utama Telkomsel Ririek Adriansyah  dalam acara media gathering di Lombok, Jumat (11/5/2018). Dia tidak menjabarkan berapa persisnya penurunan pendapatan yang dialami Telkomsel. Menurut Ririek, penurunan revenue terjadi karena Telkomsel harus mengeluarkan biaya untuk aktivitas dan promo yang mendorong pengguna untuk melakukan registrasi kartu. Salah satunya contoh promo yang digelar adalah pemberian bonus kuota 10 GB bagi pelanggan kartu SIM prabayar Telkomsel yang melakukan registrasi. Selain itu, Telkomsel mengaku kehilangan potensi pendapatan ketika pemblokiran kartu mulai diberlakukan sejak 1 Maret 2018. Aktivitas seperti mengisi ulang pulsa atau membeli paket dari kartu yang terblokir otomatis terhenti. Meski demikian, Telkomsel yakin penurunan pendapatan ini hanyalah imbas jangka pendek. “Dalam beberapa bulan ke depan saya berharap ini akan baik untuk semua. Jadi ya, kita suffer dulu, ini juga terjadi di negara lain," ujar Ririek. 50 juta pelanggan diblokirProgram daftar ulang kartu ini merupakan bagian dari Peraturan Menteri Komunikasi dan Informatika (Kominfo) nomor 21 tahun 2017 yang mewajibkan pengguna mendaftarkan nomornya menggunakan NIK dan KK atau terblokir total. Hingga 1 Mei 2018, Telkomsel mengaku sebanyak 50 juta nomor milik pelanggannya telah diblokir Kementerian Komunikasi dan Informatika (Kemenkominfo). Telkomsel terus mendorong pemilik jutaan nomor tersebut untuk melakukan registrasi dengan mendatangi outlet atau Grapari terdekat. Telkomsel belum mengumumkan jumlah nomor kartu SIM milik pelanggan mereka yang berhasil didaftarkan. Operator seuluer itu mengatakan sudah mengantongi informasi soal jumlah pelanggan prabayar yang sudah melakukan registrasi, tetapi iketerangan resminya akan diumumkan Kemenkominfo dalam waktu dekat. Data terakhir dari Kemenkominfo, per 30 April 2018, sedikitnya sebanyak 350 juta nomor kartu SIM prabayar telah berhasil didaftarkan pengguna.
+Topic:  Teknologi
+Tag: Telkomsel, Pendapatan, Pelanggan Kartu, Pelanggan Prabayar, Registrasi Kartu, Penurunan Pendapatan, Nomor Kartu
+Title: Telkomsel Mengaku Penurunan Pendapatan Imbas Registrasi Kartu Sim Prabayar
+
+Input: Berlin - Kelompok spion cyber Rusia "APT28" dilaporkan berhasil meretas jaringan komunikasi Kementerian Pertahanan dan Kementerian Luar Negeri Jerman. Pemerintah Jerman menyatakan situasi sudah berhasil diatasi. Media di Jerman melaporkan, peretasan jaringan komunikasi pemerintah Jerman oleh pelaku yang diduga kelompok agan cyber Rusia APT28 sudah tercium bulan Desember lalu. Sekarang situasi itu sudah "berhasil diatasi", kata Kementerian Dalam Negeri, yang bertugas mengawasi jaringan komunikasi pemerintah, kepada kantor berita Jerman DPA. Di kalangan pengawas serangan cyber, APT28 dikenal sebagai kelompok peretas Rusia yang mendapat dukungan pemerintahnya. Menurut otoritas di Jerman, kelompok ini juga yang melakukan serangan cyber selama pelaksanaan pemilu tahun 2015 di Jerman. Kementerian Dalam Negeri membenarkan adanya serangan peretas baru-baru ini. Setelah ditemukan, kasus ini kini berada dalam pengamatan lekat Dinas Pengamanan Teknologi Informasi BSI (Bundesamt für Sicherheit in der Informationstechnik). Seorang jurubicara Kementerian Dalam Negeri mengatakan, BSI dan departemendepartemen terkait sudah mendapat informasi dan sudah dilakukan "langkah-langkah yang perlu untuk pengamanan dan penyidikan". Prioritas tinggi Kasus itu mendapat "prioritas tinggi" dan berbagai sumber daya dikerahkan untuk meredamnya. Tidak ada kasus peretasan di jaringan komunikasi lain selain jaringan komunikasi pemerintahan di tingkat federal, demikian disebutkan. Selain BSI, badan-badan anti spionase dari dinas rahasia Jerman BfV (Bundesamt für Verfassungsschutz) dan dinas rahasia asing bekerja sama menghadapi peretas Rusia. Jaringan komunikasi yang diserang antara lain jaringan komunikasi internal Biro Kekanseliran dan jajaran kementerian, Badan Pemeriksa Keuangan Bundesrechnungshof, parlemen Jerman Bundestag dan beberapa institusi departemen keamanan di Berlin dan Bonn. Kelompok APT28 diketahui pernah meretas jaringan komunikasi pemerintahan di Eropa dan para wartawan, terutama di Eropa Timur dan Kaukasus. APT adalah singkatan dari Advanced Persistent Threat. Mei 2015 jaringan komunikasi parlemen Jerman Bundestag juga pernah dibobol. Peretas ketika itu berhasil mendapat akses luas, sehingga seluruh sistem dan teknologi komunikasi Bundestag akhirnya harus diperbarui. hp/yf (dpa, rtr)
+Topic:  News
+Tag: Jaringan, Kelompok, Jerman, Negeri, Peretas, Kementerian, Jaringan Komunikasi, Kelompok Peretas, Komunikasi Kementerian, Jaringan Komunikasi Kementerian
+Title: Kelompok Cyber Rusia Berhasil Meretas Jaringan Komunikasi Kementerian Negeri Jerman
