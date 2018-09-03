@@ -31,3 +31,7 @@ Input: Berlin - Kelompok spion cyber Rusia "APT28" dilaporkan berhasil meretas j
 Topic:  News
 Tag: Jaringan, Kelompok, Jerman, Negeri, Peretas, Kementerian, Jaringan Komunikasi, Kelompok Peretas, Komunikasi Kementerian, Jaringan Komunikasi Kementerian
 Title: Kelompok Cyber Rusia Berhasil Meretas Jaringan Komunikasi Kementerian Negeri Jerman
+
+source:
+- http://banyumasraya.com/mancanegara/tekno/pendapatan-telkomsel-menurun-karena-registrasi-kartu-prabayar
+- https://news.detik.com/dw/d-3893273/hacker-rusia-berhasil-bobol-jaringankomunikasi-pemerintah-jerman
